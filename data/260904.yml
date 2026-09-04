@@ -7,7 +7,7 @@ about:
   head: 43d46a1
   archived: false
   latestVersion: v1.5.0
-  collectedAt: 2026-09-04T19:25:35Z
+  collectedAt: 2026-09-04T21:09:42Z
 timeline:
   created: 2017-04-09
   lastCommit: 2026-08-19
@@ -33,7 +33,7 @@ recent:
     openPR: 1
     closedIssue: 0
     openIssue: 3
-    commit: 0
+    commit: 3
   last60d:
     since: 2026-07-06
     release: 1
@@ -41,7 +41,7 @@ recent:
     openPR: 1
     closedIssue: 4
     openIssue: 4
-    commit: 0
+    commit: 15
   last90d:
     since: 2026-06-06
     release: 1
@@ -49,7 +49,7 @@ recent:
     openPR: 1
     closedIssue: 5
     openIssue: 4
-    commit: 0
+    commit: 15
   last180d:
     since: 2026-03-08
     release: 2
@@ -57,7 +57,7 @@ recent:
     openPR: 3
     closedIssue: 7
     openIssue: 4
-    commit: 0
+    commit: 21
   last360d:
     since: 2025-09-09
     release: 3
@@ -65,7 +65,7 @@ recent:
     openPR: 5
     closedIssue: 19
     openIssue: 4
-    commit: 0
+    commit: 41
   last720d:
     since: 2024-09-14
     release: 4
@@ -82,6 +82,49 @@ total:
   openIssue: 36
   commit: 521
 ---
+path: /home/runner/.x-repo/github.com/amanusk/s-tui
+collectedAt: 2026-09-04T21:09:43Z
+loc:
+  Python:
+    code: 7449
+    comments: 894
+    blanks: 1769
+    files: 59
+  Makefile:
+    code: 21
+    comments: 11
+    blanks: 11
+    files: 1
+  Toml:
+    code: 17
+    comments: 0
+    blanks: 1
+    files: 1
+  Json:
+    code: 15
+    comments: 0
+    blanks: 0
+    files: 1
+  Yaml:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 247
+    blanks: 109
+    files: 2
+  Sh:
+    code: 0
+    comments: 4
+    blanks: 0
+    files: 1
+total:
+  code: 7503
+  comments: 1156
+  blanks: 1890
+  files: 66
 ---
 date: "2026-08-24"
 repo:
