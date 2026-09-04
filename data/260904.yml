@@ -1,0 +1,58 @@
+about:
+  description: Terminal-based CPU stress and monitoring utility
+  license: GPL-2.0
+  homepage: https://amanusk.github.io/s-tui/
+  head: 43d46a1
+  archived: false
+  latestVersion: v1.5.0
+  collectedAt: 2026-09-04T04:21:28Z
+timeline:
+  created: 2017-04-09
+  lastCommit: 2026-08-19
+  lastRelease: 2026-08-19
+popularity:
+  star: 5080
+  watcher: 60
+  fork: 180
+  release: 25
+  contributor: 27
+  pullRequest: 15
+  issue: 188
+language:
+  Python: 363539
+  Makefile: 1186
+  Shell: 153
+totalLine: 364878
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 1
+    mergedPR: 2
+    openPR: 1
+    closedIssue: 0
+    openIssue: 3
+    commit: 3
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 11
+    openPR: 1
+    closedIssue: 5
+    openIssue: 4
+    commit: 15
+  last180d:
+    since: 2026-03-08
+    release: 2
+    mergedPR: 14
+    openPR: 3
+    closedIssue: 7
+    openIssue: 4
+    commit: 21
+  last360d:
+    since: 2025-09-09
+    release: 3
+    mergedPR: 30
+    openPR: 5
+    closedIssue: 19
+    openIssue: 4
+    commit: 41
