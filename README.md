@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,086 · **Forks**: 180 · **Open issues**: 188 · **Contributors**: 27
+- **Stars**: 5,088 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 87 · **Open PRs**: 6 · **Closed issues**: 152 · **Open issues**: 36 · **Commits**: 521
+- **Releases**: 25 · **Merged PRs**: 87 · **Open PRs**: 7 · **Closed issues**: 152 · **Open issues**: 36 · **Commits**: 521
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 2 | 1 | 0 | 3 | 3 |
-| last60d | 2026-07-13 | 1 | 9 | 1 | 4 | 4 | 14 |
-| 90d | 2026-06-13 | 1 | 11 | 1 | 5 | 4 | 15 |
-| last180d | 2026-03-15 | 2 | 14 | 3 | 7 | 4 | 19 |
-| 360d | 2025-09-16 | 3 | 30 | 5 | 19 | 4 | 41 |
-| last720d | 2024-09-21 | 4 | 39 | 5 | 22 | 11 | 49 |
+| 30d | 2026-08-14 | 1 | 2 | 2 | 0 | 3 | 0 |
+| last60d | 2026-07-15 | 1 | 8 | 2 | 4 | 4 | 0 |
+| 90d | 2026-06-15 | 1 | 11 | 2 | 5 | 4 | 0 |
+| last180d | 2026-03-17 | 2 | 14 | 4 | 7 | 4 | 0 |
+| 360d | 2025-09-18 | 3 | 30 | 6 | 19 | 4 | 0 |
+| last720d | 2024-09-23 | 4 | 39 | 6 | 22 | 11 | 49 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:16:37Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:55:15Z._
