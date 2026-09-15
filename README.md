@@ -14,11 +14,11 @@ x install s-tui
 
 ## Code insight
 
-Total: **7,503** lines of code across **63** files in the top 5 languages.
+Total: **7,532** lines of code across **63** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 7,449 | 894 | 1,769 | 59 |
+| Python | 7,478 | 899 | 1,772 | 59 |
 | Makefile | 21 | 11 | 11 | 1 |
 | Toml | 17 | 0 | 1 | 1 |
 | Json | 15 | 0 | 0 | 1 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.0` (2026-08-19)
-- **Last commit**: 2026-08-19
+- **Last commit**: 2026-09-15
 
 ## Popularity
 
-- **Stars**: 5,088 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 27
+- **Stars**: 5,090 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 87 · **Open PRs**: 7 · **Closed issues**: 152 · **Open issues**: 36 · **Commits**: 521
+- **Releases**: 25 · **Merged PRs**: 88 · **Open PRs**: 6 · **Closed issues**: 153 · **Open issues**: 35 · **Commits**: 522
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 0 | 2 | 0 | 3 | 0 |
-| last60d | 2026-07-16 | 1 | 8 | 2 | 3 | 4 | 12 |
-| 90d | 2026-06-16 | 1 | 11 | 2 | 5 | 4 | 15 |
-| last180d | 2026-03-18 | 2 | 14 | 4 | 7 | 4 | 17 |
-| 360d | 2025-09-19 | 3 | 30 | 6 | 19 | 4 | 41 |
-| last720d | 2024-09-24 | 4 | 39 | 6 | 22 | 11 | 49 |
+| 30d | 2026-08-16 | 1 | 1 | 1 | 1 | 2 | 1 |
+| last60d | 2026-07-17 | 1 | 9 | 1 | 4 | 3 | 13 |
+| 90d | 2026-06-17 | 1 | 12 | 1 | 6 | 3 | 16 |
+| last180d | 2026-03-19 | 2 | 15 | 3 | 8 | 3 | 18 |
+| 360d | 2025-09-20 | 3 | 31 | 5 | 20 | 3 | 42 |
+| last720d | 2024-09-25 | 4 | 40 | 5 | 23 | 10 | 50 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:08:46Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:09:42Z._
