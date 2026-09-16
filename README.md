@@ -14,11 +14,11 @@ x install s-tui
 
 ## Code insight
 
-Total: **7,532** lines of code across **63** files in the top 5 languages.
+Total: **7,583** lines of code across **63** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 7,478 | 899 | 1,772 | 59 |
+| Python | 7,529 | 899 | 1,778 | 59 |
 | Makefile | 21 | 11 | 11 | 1 |
 | Toml | 17 | 0 | 1 | 1 |
 | Json | 15 | 0 | 0 | 1 |
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,090 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 27
+- **Stars**: 5,092 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 88 · **Open PRs**: 6 · **Closed issues**: 153 · **Open issues**: 35 · **Commits**: 522
+- **Releases**: 25 · **Merged PRs**: 89 · **Open PRs**: 5 · **Closed issues**: 154 · **Open issues**: 34 · **Commits**: 523
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 1 | 1 | 1 | 2 | 1 |
-| last60d | 2026-07-17 | 1 | 9 | 1 | 4 | 3 | 13 |
-| 90d | 2026-06-17 | 1 | 12 | 1 | 6 | 3 | 16 |
-| last180d | 2026-03-19 | 2 | 15 | 3 | 8 | 3 | 18 |
-| 360d | 2025-09-20 | 3 | 31 | 5 | 20 | 3 | 42 |
-| last720d | 2024-09-25 | 4 | 40 | 5 | 23 | 10 | 50 |
+| 30d | 2026-08-17 | 1 | 2 | 0 | 2 | 1 | 2 |
+| last60d | 2026-07-18 | 1 | 10 | 0 | 5 | 2 | 14 |
+| 90d | 2026-06-18 | 1 | 13 | 0 | 7 | 2 | 17 |
+| last180d | 2026-03-20 | 1 | 16 | 2 | 9 | 2 | 19 |
+| 360d | 2025-09-21 | 3 | 32 | 4 | 21 | 2 | 43 |
+| last720d | 2024-09-26 | 4 | 41 | 4 | 24 | 9 | 51 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:09:42Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:06:38Z._
