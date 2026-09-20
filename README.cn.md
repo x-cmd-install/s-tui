@@ -4,7 +4,7 @@
 
 Terminal-based CPU stress and monitoring utility
 
-![s-tui](https://repo.x-cmd.io/s-tui.svg?lang=zh)
+[![x-cmd/install — s-tui Code Quality Monitoring Repo Card](https://repo.x-cmd.io/s-tui.svg?lang=zh)](https://x-cmd.com/install/s-tui)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install s-tui
 
 ## 流行度
 
-- **Star**: 5,093 · **Fork**: 181 · **开放 issue**: 188 · **贡献者**: 28
+- **Star**: 5,096 · **Fork**: 181 · **开放 issue**: 188 · **贡献者**: 28
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install s-tui
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 2 | 0 | 2 | 1 | 2 |
-| last60d | 2026-07-20 | 1 | 10 | 0 | 5 | 2 | 14 |
-| 90d | 2026-06-20 | 1 | 13 | 0 | 7 | 2 | 17 |
-| last180d | 2026-03-22 | 1 | 15 | 1 | 8 | 2 | 19 |
-| 360d | 2025-09-23 | 3 | 32 | 4 | 21 | 2 | 43 |
-| last720d | 2024-09-28 | 4 | 41 | 4 | 24 | 9 | 51 |
+| 30d | 2026-08-21 | 0 | 2 | 0 | 2 | 1 | 2 |
+| last60d | 2026-07-22 | 1 | 10 | 0 | 5 | 2 | 10 |
+| 90d | 2026-06-22 | 1 | 13 | 0 | 7 | 2 | 17 |
+| last180d | 2026-03-24 | 1 | 15 | 1 | 7 | 2 | 17 |
+| 360d | 2025-09-25 | 3 | 32 | 4 | 21 | 2 | 43 |
+| last720d | 2024-09-30 | 4 | 41 | 4 | 24 | 9 | 51 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ s-tui 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:56:42Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:59:28Z._
