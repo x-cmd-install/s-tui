@@ -30,9 +30,9 @@ x install s-tui
 
 评分最低的几项:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -47,7 +47,7 @@ x install s-tui
 
 ## 流行度
 
-- **Star**: 5,105 · **Fork**: 185 · **开放 issue**: 188 · **贡献者**: 28
+- **Star**: 5,107 · **Fork**: 181 · **开放 issue**: 188 · **贡献者**: 28
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install s-tui
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-21 | 0 | 2 | 1 | 2 | 1 | 2 |
-| 90d | 2026-07-22 | 1 | 10 | 1 | 5 | 2 | 10 |
-| last180d | 2026-04-23 | 1 | 13 | 1 | 7 | 2 | 17 |
-| 360d | 2025-10-25 | 3 | 32 | 4 | 21 | 2 | 42 |
-| last720d | 2024-10-30 | 4 | 41 | 5 | 24 | 8 | 51 |
+| 30d | 2026-09-21 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-22 | 0 | 2 | 1 | 1 | 1 | 2 |
+| 90d | 2026-07-23 | 1 | 10 | 1 | 5 | 2 | 10 |
+| last180d | 2026-04-24 | 1 | 13 | 1 | 7 | 2 | 17 |
+| 360d | 2025-10-26 | 3 | 32 | 4 | 21 | 2 | 42 |
+| last720d | 2024-10-31 | 4 | 41 | 5 | 24 | 8 | 51 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ s-tui 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T05:45:52Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:36:41Z._
