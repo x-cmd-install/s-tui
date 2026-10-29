@@ -1,40 +1,3 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: chimera
-  subrepo: user
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-r0
-  status: newest
-  summary: CPU performance monitor
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_17
   subrepo: community
   srcname: s-tui
@@ -321,6 +284,17 @@
     - lesto@aur
   licenses:
     - GPLv2
+- repo: chimera
+  subrepo: user
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-r0
+  status: newest
+  summary: CPU performance monitor
+  licenses:
+    - GPL-2.0-or-later
 - repo: chimera
   subrepo: user
   srcname: s-tui
@@ -644,6 +618,19 @@
   origversion: null
   status: newest
   summary: Interactive terminal stress test and monitoring tool
+- repo: kali_rolling
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-admin/s-tui
   visiblename: app-admin/s-tui
@@ -920,6 +907,19 @@
   version: 1.1.6
   origversion: 1.1.6-1.2
   status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
   maintainers:
     - jcc@debian.org
   categories:
