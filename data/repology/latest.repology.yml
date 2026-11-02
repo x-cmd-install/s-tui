@@ -1,18 +1,5 @@
-- repo: parrot
-  subrepo: parrot/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: deepin_25
+  subrepo: community
   srcname: s-tui
   binnames:
     - s-tui
@@ -22,23 +9,21 @@
   status: outdated
   maintainers:
     - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: s-tui
   binnames:
     - s-tui
   visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
+  version: 1.0.2
+  origversion: 1.0.2-2
   status: outdated
   maintainers:
     - jcc@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: s-tui
   binnames:
     - s-tui
@@ -50,16 +35,32 @@
     - jcc@debian.org
   categories:
     - misc
-- repo: slackbuilds
-  srcname: system/s-tui
-  visiblename: system/s-tui
-  version: 1.2.0
-  origversion: null
+- repo: pardus_21
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.0.2
+  origversion: 1.0.2-2
   status: outdated
   maintainers:
-    - daedra1980@gmail.com
+    - jcc@debian.org
   categories:
-    - system
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: s-tui
@@ -138,6 +139,34 @@
     - kaythomas@pm.me
   licenses:
     - GPL-2.0-or-later
+- repo: deepin_23
+  subrepo: community
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: alt_p11
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-alt1
+  status: outdated
+  summary: CPU performance monitoring and testing
+  maintainers:
+    - koi@altlinux.org
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - System/Kernel and hardware
 - repo: alpine_3_20
   subrepo: community
   srcname: s-tui
@@ -281,21 +310,6 @@
     - kaythomas@pm.me
   licenses:
     - GPL-2.0-or-later
-- repo: alt_p11
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-alt1
-  status: outdated
-  summary: CPU performance monitoring and testing
-  maintainers:
-    - koi@altlinux.org
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - System/Kernel and hardware
 - repo: altsisyphus
   srcname: s-tui
   binnames:
@@ -444,56 +458,6 @@
   status: outdated
   maintainers:
     - jcc@debian.org
-- repo: deepin_23
-  subrepo: community
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
-- repo: deepin_25
-  subrepo: community
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: s-tui
@@ -659,6 +623,19 @@
     - GPL-2
   categories:
     - app-admin
+- repo: parrot
+  subrepo: parrot/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: gentoo_ovl_guru
   srcname: app-admin/s-tui
   visiblename: app-admin/s-tui
@@ -750,23 +727,23 @@
   srcname: s-tui
   binname: s-tui
   visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
+  version: 1.1.4
+  origversion: 1.1.4-6
+  status: outdated
   summary: Terminal UI stress test and monitoring tool
   licenses:
-    - GPL-2.0-only
+    - GPL2
 - repo: manjaro_testing
   subrepo: extra
   srcname: s-tui
   binname: s-tui
   visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
+  version: 1.1.4
+  origversion: 1.1.4-6
+  status: outdated
   summary: Terminal UI stress test and monitoring tool
   licenses:
-    - GPL-2.0-only
+    - GPL2
 - repo: manjaro_unstable
   subrepo: extra
   srcname: s-tui
@@ -849,32 +826,6 @@
   summary: Terminal UI stress test and monitoring tool
   licenses:
     - GPL-2.0-only
-- repo: pardus_21
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
 - repo: pisi_main
   subrepo: main
   srcname: hardware/misc/s-tui
@@ -934,6 +885,55 @@
     - jcc@debian.org
   categories:
     - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: system/s-tui
+  visiblename: system/s-tui
+  version: 1.2.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - daedra1980@gmail.com
+  categories:
+    - system
 - repo: solus
   srcname: s-tui
   binname: s-tui
