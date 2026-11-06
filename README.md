@@ -47,39 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,117 · **Forks**: 182 · **Open issues**: 188 · **Contributors**: 28
+- **Stars**: 5,117 · **Forks**: 183 · **Open issues**: 188 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 89 · **Open PRs**: 6 · **Closed issues**: 154 · **Open issues**: 34 · **Commits**: 523
+- **Releases**: 25 · **Merged PRs**: 89 · **Open PRs**: 7 · **Closed issues**: 154 · **Open issues**: 34 · **Commits**: 523
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-06 | 0 | 1 | 1 | 0 | 0 | 2 |
-| 90d | 2026-08-07 | 1 | 4 | 1 | 2 | 1 | 5 |
-| last180d | 2026-05-09 | 1 | 13 | 1 | 7 | 2 | 17 |
-| 360d | 2025-11-10 | 3 | 32 | 4 | 21 | 2 | 42 |
-| last720d | 2024-11-15 | 4 | 41 | 5 | 24 | 8 | 51 |
-
-## Distribution status
-
-Reported by **83** distros on [repology.org](https://repology.org/project/s-tui). **19** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.5.0` | ✅ latest |
-| Debian 14 | `1.5.0` | ✅ latest |
-| Debian 13 | `1.1.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.3.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.1.6` | ⚠️ outdated |
-| Arch | `1.5.0` | ✅ latest |
-| Fedora rawhide | `1.4.0` | ⚠️ outdated |
-| Nix unstable | `1.5.0` | ✅ latest |
-| Alpine edge | `1.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.0` | ✅ latest |
+| 30d | 2026-10-07 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-07 | 0 | 1 | 2 | 0 | 0 | 2 |
+| 90d | 2026-08-08 | 1 | 4 | 2 | 2 | 1 | 5 |
+| last180d | 2026-05-10 | 1 | 13 | 2 | 7 | 2 | 17 |
+| 360d | 2025-11-11 | 3 | 32 | 5 | 21 | 2 | 42 |
+| last720d | 2024-11-16 | 4 | 41 | 6 | 24 | 8 | 51 |
 
 ## Improve this data
 
@@ -90,4 +73,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:37:58Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:42:56Z._
