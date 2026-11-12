@@ -1,75 +1,23 @@
-- repo: pld
+- repo: arch
+  subrepo: extra
   srcname: s-tui
+  binname: s-tui
   visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-2
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Terminal UI stress test and monitoring tool
+  licenses:
+    - GPL-2.0-only
+- repo: gnuguix
   srcname: s-tui
-  binnames:
-    - s-tui
+  binname: s-tui
   visiblename: s-tui
-  version: 0.8.3
-  origversion: 0.8.3-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
+  version: 1.5.0
+  origversion: null
+  status: newest
+  summary: Interactive terminal stress test and monitoring tool
+- repo: kali_rolling
   subrepo: main
   srcname: s-tui
   binnames:
@@ -82,6 +30,19 @@
     - jcc@debian.org
   categories:
     - misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.0.0
+  origversion: 1.0.0-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - universe/misc
 - repo: alpine_3_17
   subrepo: community
   srcname: s-tui
@@ -173,21 +134,6 @@
     - kaythomas@pm.me
   licenses:
     - GPL-2.0-or-later
-- repo: altsisyphus
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-alt1
-  status: newest
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - amakeenk@altlinux.org
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Kernel and hardware
 - repo: alpine_3_21
   subrepo: community
   srcname: s-tui
@@ -279,19 +225,6 @@
     - kaythomas@pm.me
   licenses:
     - GPL-2.0-or-later
-- repo: t2
-  srcname: s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: null
-  status: newest
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - GPL
-  categories:
-    - extra/base
 - repo: alpine_3_24
   subrepo: community
   srcname: s-tui
@@ -346,6 +279,21 @@
     - GPL-2.0-only
   categories:
     - System/Kernel and hardware
+- repo: altsisyphus
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-alt1
+  status: newest
+  summary: Terminal-based CPU stress and monitoring utility
+  maintainers:
+    - amakeenk@altlinux.org
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Kernel and hardware
 - repo: aosc
   srcname: app-utils/s-tui
   binname: s-tui
@@ -358,17 +306,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: arch
-  subrepo: extra
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Terminal UI stress test and monitoring tool
-  licenses:
-    - GPL-2.0-only
 - repo: aur
   srcname: s-tui-git
   binname: s-tui-git
@@ -707,27 +644,6 @@
     - GPL-2
   categories:
     - app-admin
-- repo: gnuguix
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: null
-  status: newest
-  summary: Interactive terminal stress test and monitoring tool
-- repo: kali_rolling
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-admin/s-tui
   visiblename: app-admin/s-tui
@@ -898,7 +814,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: s-tui
   binnames:
     - s-tui
@@ -911,7 +827,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: s-tui
   binnames:
     - s-tui
@@ -937,6 +853,90 @@
     - GPLv2
   categories:
     - app:console
+- repo: pld
+  srcname: s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-2
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 0.8.3
+  origversion: 0.8.3-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.0.2
+  origversion: 1.0.2-2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: slackbuilds
   srcname: system/s-tui
   visiblename: system/s-tui
@@ -961,19 +961,19 @@
     - GPL-2.0-or-later
   categories:
     - system.utils
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+- repo: t2
   srcname: s-tui
-  binnames:
-    - s-tui
   visiblename: s-tui
-  version: 1.0.0
-  origversion: 1.0.0-1
-  status: outdated
+  version: 1.5.0
+  origversion: null
+  status: newest
+  summary: Terminal-based CPU stress and monitoring utility
   maintainers:
-    - jcc@debian.org
+    - rene@exactco.de
+  licenses:
+    - GPL
   categories:
-    - universe/misc
+    - extra/base
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: s-tui
