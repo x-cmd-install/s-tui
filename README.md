@@ -30,8 +30,8 @@ Overall score: **3.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Maintained** (2/10) — 2 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 2
+- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,122 · **Forks**: 183 · **Open issues**: 189 · **Contributors**: 28
+- **Stars**: 5,123 · **Forks**: 183 · **Open issues**: 189 · **Contributors**: 28
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-25 | 0 | 2 | 2 | 1 | 2 | 2 |
-| last180d | 2026-05-27 | 1 | 13 | 2 | 7 | 3 | 17 |
-| 360d | 2025-11-28 | 3 | 31 | 5 | 21 | 3 | 42 |
-| last720d | 2024-12-03 | 4 | 41 | 6 | 24 | 8 | 51 |
+| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-25 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-26 | 0 | 2 | 2 | 1 | 2 | 2 |
+| last180d | 2026-05-28 | 1 | 13 | 2 | 7 | 3 | 17 |
+| 360d | 2025-11-29 | 3 | 31 | 5 | 21 | 3 | 42 |
+| last720d | 2024-12-04 | 4 | 41 | 6 | 24 | 8 | 51 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:06:01Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:03:42Z._
