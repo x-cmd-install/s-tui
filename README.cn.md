@@ -57,29 +57,12 @@ x install s-tui
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-26 | 0 | 2 | 2 | 1 | 2 | 2 |
-| last180d | 2026-05-28 | 1 | 13 | 2 | 7 | 3 | 17 |
-| 360d | 2025-11-29 | 3 | 31 | 5 | 21 | 3 | 42 |
-| last720d | 2024-12-04 | 4 | 41 | 6 | 24 | 8 | 51 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/s-tui) 上共有 **84** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**55** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.5.0` | ✅ latest |
-| Debian 14 | `1.5.0` | ✅ latest |
-| Debian 13 | `1.1.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.3.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.1.6` | ⚠️ outdated |
-| Arch | `1.5.0` | ✅ latest |
-| Fedora rawhide | `1.4.0` | ⚠️ outdated |
-| Nix unstable | `1.5.0` | ✅ latest |
-| Alpine edge | `1.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.0` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-27 | 0 | 1 | 2 | 1 | 1 | 2 |
+| last180d | 2026-05-29 | 1 | 13 | 2 | 7 | 3 | 17 |
+| 360d | 2025-11-30 | 3 | 31 | 5 | 21 | 3 | 42 |
+| last720d | 2024-12-05 | 4 | 41 | 6 | 24 | 8 | 51 |
 
 ## 改进这些数据
 
@@ -90,4 +73,4 @@ s-tui 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:03:43Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:51:42Z._
