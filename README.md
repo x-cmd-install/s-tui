@@ -57,12 +57,29 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-27 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-28 | 0 | 1 | 2 | 1 | 1 | 2 |
-| last180d | 2026-05-30 | 1 | 13 | 2 | 7 | 3 | 17 |
-| 360d | 2025-12-01 | 3 | 31 | 5 | 21 | 3 | 42 |
-| last720d | 2024-12-06 | 4 | 41 | 6 | 24 | 8 | 51 |
+| 30d | 2026-10-28 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-28 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-29 | 0 | 1 | 2 | 1 | 1 | 2 |
+| last180d | 2026-05-31 | 1 | 13 | 2 | 7 | 3 | 17 |
+| 360d | 2025-12-02 | 3 | 31 | 5 | 21 | 3 | 42 |
+| last720d | 2024-12-07 | 4 | 41 | 6 | 24 | 8 | 51 |
+
+## Distribution status
+
+Reported by **83** distros on [repology.org](https://repology.org/project/s-tui). **22** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.5.0` | ✅ latest |
+| Debian 14 | `1.5.0` | ✅ latest |
+| Debian 13 | `1.1.6` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.3.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.1.6` | ⚠️ outdated |
+| Arch | `1.5.0` | ✅ latest |
+| Fedora rawhide | `1.4.0` | ⚠️ outdated |
+| Nix unstable | `1.5.0` | ✅ latest |
+| Alpine edge | `1.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.5.0` | ✅ latest |
 
 ## Improve this data
 
@@ -73,4 +90,4 @@ Install metadata for s-tui lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T10:04:24Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T09:27:27Z._
