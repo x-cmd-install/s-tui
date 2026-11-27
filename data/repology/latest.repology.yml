@@ -1,18 +1,29 @@
-- repo: raspbian_oldstable
+- repo: parabola
+  subrepo: extra
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Terminal UI stress test and monitoring tool
+  licenses:
+    - GPL-2.0-only
+- repo: pardus_21
   subrepo: main
   srcname: s-tui
   binnames:
     - s-tui
   visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
+  version: 1.0.2
+  origversion: 1.0.2-2
   status: outdated
   maintainers:
     - jcc@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: s-tui
   binnames:
     - s-tui
@@ -24,8 +35,21 @@
     - jcc@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
   srcname: s-tui
   binnames:
     - s-tui
@@ -37,25 +61,82 @@
     - jcc@debian.org
   categories:
     - misc
-- repo: pld
-  srcname: s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-2
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: s-tui
   binnames:
     - s-tui
   visiblename: s-tui
-  version: 0.8.3
-  origversion: 0.8.3-1
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: community
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
   status: outdated
   maintainers:
     - jcc@debian.org
   categories:
     - utils
+- repo: deepin_25
+  subrepo: community
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.0.2
+  origversion: 1.0.2-2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: alpine_3_18
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-r2
+  status: outdated
+  summary: Terminal-based CPU stress and monitoring utility
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_17
   subrepo: community
   srcname: s-tui
@@ -69,123 +150,110 @@
     - kaythomas@pm.me
   licenses:
     - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-r2
-  status: outdated
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui-pyc
-  visiblename: s-tui-pyc
-  version: 1.1.4
-  origversion: 1.1.4-r2
-  status: outdated
-  summary: Precompiled Python bytecode for s-tui
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-r2
-  status: outdated
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui-pyc
-  visiblename: s-tui-pyc
-  version: 1.1.4
-  origversion: 1.1.4-r2
-  status: outdated
-  summary: Precompiled Python bytecode for s-tui
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-r1
-  status: outdated
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui-pyc
-  visiblename: s-tui-pyc
-  version: 1.1.6
-  origversion: 1.1.6-r1
-  status: outdated
-  summary: Precompiled Python bytecode for s-tui
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-r1
-  status: outdated
-  summary: Terminal-based CPU stress and monitoring utility
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: s-tui
-  binname: s-tui-pyc
-  visiblename: s-tui-pyc
-  version: 1.1.6
-  origversion: 1.1.6-r1
-  status: outdated
-  summary: Precompiled Python bytecode for s-tui
-  maintainers:
-    - kaythomas@pm.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: debian_13
+  subrepo: trixie/main
   srcname: s-tui
   binnames:
     - s-tui
   visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
+  version: 1.1.6
+  origversion: 1.1.6-1.2
   status: outdated
   maintainers:
     - jcc@debian.org
   categories:
-    - utils
+    - misc
+- repo: alpine_3_18
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui-pyc
+  visiblename: s-tui-pyc
+  version: 1.1.4
+  origversion: 1.1.4-r2
+  status: outdated
+  summary: Precompiled Python bytecode for s-tui
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-r2
+  status: outdated
+  summary: Terminal-based CPU stress and monitoring utility
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui-pyc
+  visiblename: s-tui-pyc
+  version: 1.1.4
+  origversion: 1.1.4-r2
+  status: outdated
+  summary: Precompiled Python bytecode for s-tui
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-r1
+  status: outdated
+  summary: Terminal-based CPU stress and monitoring utility
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui-pyc
+  visiblename: s-tui-pyc
+  version: 1.1.6
+  origversion: 1.1.6-r1
+  status: outdated
+  summary: Precompiled Python bytecode for s-tui
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-r1
+  status: outdated
+  summary: Terminal-based CPU stress and monitoring utility
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: s-tui
+  binname: s-tui-pyc
+  visiblename: s-tui-pyc
+  version: 1.1.6
+  origversion: 1.1.6-r1
+  status: outdated
+  summary: Precompiled Python bytecode for s-tui
+  maintainers:
+    - kaythomas@pm.me
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_22
   subrepo: community
   srcname: s-tui
@@ -332,19 +400,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: s-tui
@@ -412,95 +467,6 @@
   version: 1.1.4
   origversion: 1.1.4-1
   status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: deepin_23
-  subrepo: community
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
-- repo: deepin_25
-  subrepo: community
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.4
-  origversion: 1.1.4-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
   maintainers:
     - jcc@debian.org
   categories:
@@ -671,6 +637,20 @@
     - sunpoet@freebsd.org
   categories:
     - sysutils
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1.1
+  status: newest
+  summary: Terminal based CPU stress and monitoring utility
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
 - repo: gentoo_ovl_guru
   srcname: app-admin/s-tui
   visiblename: app-admin/s-tui
@@ -849,70 +829,6 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1.1
-  status: newest
-  summary: Terminal based CPU stress and monitoring utility
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: s-tui
-  binname: s-tui
-  visiblename: s-tui
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Terminal UI stress test and monitoring tool
-  licenses:
-    - GPL-2.0-only
-- repo: pardus_21
-  subrepo: main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.0.2
-  origversion: 1.0.2-2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: s-tui
-  binnames:
-    - s-tui
-  visiblename: s-tui
-  version: 1.1.6
-  origversion: 1.1.6-1.2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
 - repo: pisi_main
   subrepo: main
   srcname: hardware/misc/s-tui
@@ -927,6 +843,77 @@
     - GPLv2
   categories:
     - app:console
+- repo: pld
+  srcname: s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-2
+  status: outdated
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.0.2
+  origversion: 1.0.2-2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.4
+  origversion: 1.1.4-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.1.6
+  origversion: 1.1.6-1.2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s-tui
+  binnames:
+    - s-tui
+  visiblename: s-tui
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: slackbuilds
   srcname: system/s-tui
   visiblename: system/s-tui
